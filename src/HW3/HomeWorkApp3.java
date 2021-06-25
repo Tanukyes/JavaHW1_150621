@@ -9,11 +9,17 @@ public class HomeWorkApp3 {
     static Random random = new Random();
 
     public static void main(String[] args) {
-//        task1();
-//        task2();
-//        task3();
-//        task4();
-//        task5();
+        System.out.println("Задание 1:");
+        task1();
+        System.out.println("Задание 2:");
+        task2();
+        System.out.println("Задание 3:");
+        task3();
+        System.out.println("Задание 4:");
+        task4();
+        System.out.println("Задание 5:");
+        task5();
+        System.out.println("Задание 6:");
         task6();
     }
 
@@ -36,6 +42,7 @@ public class HomeWorkApp3 {
             arr1[i] = i + 1;
             System.out.print(arr1[i] + " ");
         }
+        System.out.println();
     }
 
     public static void task3() {
@@ -48,6 +55,7 @@ public class HomeWorkApp3 {
         }
         System.out.println(Arrays.toString(arr2));
     }
+
 
     public static void task4() {
         int[][] arr3 = new int[5][5];
