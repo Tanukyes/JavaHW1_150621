@@ -9,17 +9,17 @@ public class HomeWorkApp3 {
     static Random random = new Random();
 
     public static void main(String[] args) {
-        System.out.println("Задание 1:");
+        System.out.println("Задание 1: ");
         task1();
-        System.out.println("Задание 2:");
+        System.out.println("Задание 2: ");
         task2();
-        System.out.println("Задание 3:");
+        System.out.println("Задание 3: ");
         task3();
-        System.out.println("Задание 4:");
+        System.out.println("Задание 4: ");
         task4();
-        System.out.println("Задание 5:");
+        System.out.println("Задание 5: ");
         task5();
-        System.out.println("Задание 6:");
+        System.out.println("Задание 6: ");
         task6();
     }
 
