@@ -138,7 +138,6 @@ public class HomeWorkApp4 {
             x = random.nextInt(SIZE);
         } while (!isCellValid(y, x));
         map[y][x] = DOT_O;
-
     }
 
 
